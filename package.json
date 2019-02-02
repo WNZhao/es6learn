@@ -1,0 +1,29 @@
+{
+    "name": "node_es6_to_es5",
+    "version": "1.0.0",
+    "description": "demo for node es6 write style",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "babel src -d dist --source-maps",
+        "build:watch": "babel src -w -d dist --source-maps"
+    },
+    "keywords": [],
+    "author": "",
+    "repository": "",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-stage-3": "^6.24.1",
+        "babel-register": "^6.26.0",
+        "del": "^3.0.0",
+        "eslint": "^5.12.1",
+        "eslint-config-airbnb": "^17.1.0",
+        "eslint-plugin-import": "^2.16.0",
+        "eslint-plugin-jsx-a11y": "^6.2.0",
+        "eslint-plugin-react": "^7.12.4",
+        "gulp": "^4.0.0"
+    },
+    "dependencies": {}
+}
